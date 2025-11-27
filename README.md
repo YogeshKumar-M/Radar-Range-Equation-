@@ -47,7 +47,6 @@ plot(Pm_vals, Rmax_Pm);
 
 # Output Waveform
 
-<img width="766" height="730" alt="Screenshot 2025-10-22 152814" src="https://github.com/user-attachments/assets/8d7cecee-4292-4c59-b480-69ed4f674291" />
 
 
 # Calculation:
