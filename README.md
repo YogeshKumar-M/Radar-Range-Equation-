@@ -34,7 +34,7 @@ Pm_const = 1e-13;
 Rmax_Gt = ((Pt_const .* Gt_vals.^2 .* lambda.^2 .* sigma) ./ ((4*pi)^3 .* Pm_const)).^(1/4);
 Pm_vals = logspace(-14, -9, 50);  
 Pt_const = 3;          
-Gt_const = 40;        
+Gt_const = 60;        
 Rmax_Pm = ((Pt_const .* Gt_const.^2 .* lambda.^2 .* sigma) ./ ((4*pi)^3 .* Pm_vals)).^(1/4);
 subplot(3,1,1);
 plot(Pt_vals, Rmax_Pt);
@@ -46,10 +46,15 @@ plot(Pm_vals, Rmax_Pm);
 ```
 
 # Output Waveform
+<img width="1715" height="1010" alt="image" src="https://github.com/user-attachments/assets/510ecce8-85ce-4de6-abe8-cdd5b1d04131" />
+
 
 
 
 # Calculation:
+
+![WhatsApp Image 2025-11-28 at 08 11 26_90fb87a8](https://github.com/user-attachments/assets/f5fc6f7c-d7ae-4f3e-949e-cd5eb3d4df2a)
+
 
 # Result:
 
